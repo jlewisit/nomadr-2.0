@@ -1,6 +1,6 @@
 import React from 'react';
-import Login from '../pages/Login';
-import Register from './Register';
+// import Login from '../pages/Login';
+// import Register from './Register';
 function Home() {
 
   return (
@@ -48,9 +48,8 @@ function Home() {
       
     <div className = "grid-item">
       <div class = "loginformcontainer">
-<a>The place that gets you going.</a><br></br>
-<a>Join Now!</a>
-      
+        The place that gets you going.<br></br>
+        <a href="/">Join Now!</a>
    </div>
    </div>
   

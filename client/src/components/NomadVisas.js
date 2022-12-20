@@ -8,7 +8,7 @@ import { useParams } from 'react-router-dom';
 import Visa from './Visa'
 
 const Visas = () => {
-  const { countryName} = useParams()
+  const { countryName } = useParams()
   const [countrySearch, setCountrySearch] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [getCountry, {data, loading, error}] = useLazyQuery(QUERY_COUNTRY, {variables: {countryName: countrySearch }});
