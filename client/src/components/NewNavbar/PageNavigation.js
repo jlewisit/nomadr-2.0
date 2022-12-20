@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import NavTabs from './NewNavTabs';
-import Home from '../Pages/Home';
-import Resources from '../Pages/Resources'
-import Visa from '../Pages/NomadVisas';
-import LanguagePractice from '../Pages/Language Practice';
+import Home from '../Home';
+import Resources from '../Resources'
+import Visa from '../NomadVisas';
+import LanguagePractice from '../Language Practice';
 import "../NewNavbar/NewNav.css"
 import FooterContainer from '../containers/footer';
-import Login from '../Pages/Login';
-import Register from '../Pages/Register';
+import Login from '../../pages/Login';
+import Register from '../Register';
 
 export default function PageNavigation () {
     const [currentPage, setCurrentPage] = useState('Home');

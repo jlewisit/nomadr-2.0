@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import {QUERY_COUNTRY} from '../../utils/queries';
+import {QUERY_COUNTRY} from '../utils/queries';
 import { useLazyQuery } from '@apollo/client';
-import '../Styles/Visa.css'
+import './Styles/Visa.css'
 import { useParams } from 'react-router-dom';
 // import {QUERY_INCOME} from '../../utils/queries';
 // import { useLocation, useNavigate } from 'react-router-dom';
-import Visa from '../../components/Pages/Visa'
+import Visa from './Visa'
 
 const Visas = () => {
   const { countryName} = useParams()

@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import {frenchList} from '../LanguageCards/frenchDB';
-import{spanishList} from '../LanguageCards/spanishDB';
-import {portugueseList} from '../LanguageCards/portugueseDB';
-import { georgianList } from '../LanguageCards/georgianDB';
-import FlashcardList from '../LanguageCards/FlashcardList';
+import {frenchList} from './LanguageCards/frenchDB';
+import{spanishList} from './LanguageCards/spanishDB';
+import {portugueseList} from './LanguageCards/portugueseDB';
+import { georgianList } from './LanguageCards/georgianDB';
+import FlashcardList from './LanguageCards/FlashcardList';
 
 function LanguagePractice() {
 
